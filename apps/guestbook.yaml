@@ -8,7 +8,7 @@ metadata:
 spec:
   destination:
     namespace: guestbook
-    name: in-cluster
+    name: child-cluster
   project: default
   source:
     path: general/helm-guestbook
